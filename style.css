@@ -1,1 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body
+{
+    background: rgb(6, 10, 31);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main
+{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+main .left
+{
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.left h2, span
+{
+    font-size: 8.5rem;
+    color: #7d6e6e;
+}
+
+.left h2:last-child
+{
+    color: aqua;
+}
+
+main .right
+{
+    /* border: 2px solid red; */
+    height: 90vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: inset 0px 0px 10px aqua;
+}
+
+main form
+{
+    /* border: 2px solid red; */
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+    align-items: center;
+}
+
+form .content
+{
+    /* border: 2px solid aqua; */
+    display: flex;
+    gap: 1rem;
+}
+
+.content input
+{
+    border: 2px solid aqua;
+    font-size: 1.3rem;
+    padding: .5rem;
+    background: transparent;
+    color: #fff;
+}
+
+.content .btn
+{
+    /* border: 2px solid red; */
+    padding: 0rem 2rem;
+    border-radius: 1rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid aqua;
+    color: #fff;
+    transition: .4s;
+}
+
+.content .btn:hover
+{
+    background: aqua;
+    color: #000;
+}
