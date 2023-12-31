@@ -67,6 +67,7 @@ main form
     height: 3rem;
     align-items: center;
     z-index: 2;
+    top: 10%;
 }
 
 form .content
@@ -140,4 +141,5 @@ form .content
     color: white;
     padding: 0rem .5rem; 
     margin-left: 5rem;
+    cursor: pointer;
 }
