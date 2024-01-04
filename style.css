@@ -49,7 +49,7 @@ main .right
 {
     /* border: 2px solid red; */
     height: 90vh;
-    width: 50%;
+    width: 50rem;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -114,7 +114,7 @@ form .content
 .right .content-list .list
 {
     position: absolute;
-    /* border: 2px solid red; */
+    border: 2px solid red;
     width: 95%;
     top: 30%;
     bottom: 0;
@@ -124,13 +124,9 @@ form .content
     flex-wrap: wrap;
     gap: .6rem;
     overflow: scroll;
+    overflow-y: hidden;
 }
 
-.right .content-list .list::-webkit-scrollbar
-{
-    position: absolute;
-    top: 0;
-}
 
 .list li
 {
